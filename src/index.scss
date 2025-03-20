@@ -1,0 +1,77 @@
+
+@use "./assets/scss/styles";
+@import './assets/css/icons.css';
+
+//Color Picker
+
+@import "@simonwep/pickr/dist/themes/classic.min.css";
+@import "@simonwep/pickr/dist/themes/monolith.min.css";
+@import "@simonwep/pickr/dist/themes/nano.min.css";
+
+// Simplebar CSS
+@import 'simplebar-react/dist/simplebar.min.css';
+
+@import "flatpickr/dist/flatpickr.css";
+
+///
+.main-chart-wrapper .chat-info .chat-users-tab li .chat-msg-typing .chat-msg, .main-chart-wrapper .chat-info .chat-groups-tab li .chat-msg-typing .chat-msg {
+    color: rgb(33, 206, 158) !important;
+}
+
+.rodal {
+    z-index: 103 !important;
+}
+.sales-picker{
+    .flatpickr-wrapper {
+    border: 1px solid var(--default-border) !important;
+    }
+}
+
+.Select2__option img, .Select2__single-value img {
+    width: 1.45rem !important;
+    height: 1.45rem !important;
+    border-radius: 1.25rem;
+    margin-inline-end: 0.25rem !important;
+    box-shadow: 0px 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+}
+
+.css-1fw5qro-MuiPaper-root {
+    box-shadow:none !important;
+}
+
+[data-theme-mode="dark"] {
+    .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+
+        background-color: rgb(25 ,25, 28) !important;
+        color: #fff !important;
+    }
+    
+}
+
+.MuiTablePagination-input {
+    border: 1px solid var(--default-border) !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+
+    fill: var(--menu-prime-color) !important;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+
+    color: var(--menu-prime-color) !important;
+}
+
+.css-10by3a5-MuiButtonBase-root-MuiMenuItem-root-MuiTablePagination-menuItem.Mui-selected {
+    background-color: rgb(var(--primary-rgb)) !important;
+    color: #fff !important;
+}
+
+[data-theme-mode="dark"][data-nav-layout="horizontal"][data-menu-styles="light"] .main-menu > .slide:hover .slide-menu .side-menu__item:hover .side-menu__angle  {
+    color: var(--primary-color) !important;
+    fill: var(--primary-color) !important;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+    z-index: 10 !important;
+}
